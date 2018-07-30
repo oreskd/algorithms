@@ -1,6 +1,6 @@
-package datastructures.array.stack;
+package datastructures.stack.array;
 
-import datastructures.array.ArrayList;
+import datastructures.list.array.ArrayList;
 
 public class ArrayStack<T> {
     private ArrayList<T> arrayList;
@@ -20,3 +20,4 @@ public class ArrayStack<T> {
         return element;
     }
 }
+
